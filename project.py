@@ -9,8 +9,8 @@ chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("prefs", prefs)
 
 
-username = "9610526978"
-password = "travel@123"
+username = "enter your username"
+password = "enter your password"
 url = "https://www.facebook.com"
 driver = webdriver.Chrome("/Users/kartikgupta/Downloads/chromedriver")
 driver.get(url)
